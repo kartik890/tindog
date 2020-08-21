@@ -1,0 +1,59 @@
+#title
+{
+    background-color: #ff4c68;
+    
+}
+body{
+    font-family: "Montserrat";
+}
+
+h1{
+    font-family: "Montserrat";
+    size:5rem;
+    line-height: 1.5;
+    color: #ffffff;
+
+}
+#logo{
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+}
+
+/* navbar */
+
+.navbar
+{
+    padding: 4.5rem;
+}
+.nav-item
+{
+    padding: 0px 18px;
+}
+.nav-link
+{
+    font-family: "Montserrat-Light";
+}
+/* buttons */
+.title-btn
+{
+    margin: 5% 3% 5% 0;
+}
+/* 
+dog image */
+
+.dog-image
+{
+    width: 50%;
+    transform: rotate(25deg);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+/* 
+feture buttons */
+.fet-button{
+    color:#ff4c68; 
+    font-size:4rem;
+}
+
+
+
