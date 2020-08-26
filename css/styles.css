@@ -1,6 +1,8 @@
 #title
 {
     background-color: #ff4c68;
+    color: #ffffff;
+    
     
 }
 body{
@@ -11,7 +13,7 @@ h1{
     font-family: "Montserrat";
     size:5rem;
     line-height: 1.5;
-    color: #ffffff;
+    
 
 }
 #logo{
@@ -40,20 +42,83 @@ h1{
 }
 /* 
 dog image */
-
-.dog-image
-{
-    width: 50%;
-    transform: rotate(25deg);
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
+/* .container{
+    padding: 3% 15% 7% ;
+  } */
+  
+  .title-image
+  {
+      
+      width: 60%;
+      top:20%;
+      left: 22%;
+      transform: rotate(25deg);
+      position: relative;
+      
+     
+  }
 /* 
 feture buttons */
+#features
+{
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
 .fet-button{
     color:#ff4c68; 
     font-size:4rem;
 }
 
+/* testimonials */
+#testimonials
+{
+    
+    background-color: #ff8172;
+    text-align: center;
+    color: #ffffff;
+}
 
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+.testimonial-image
+{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+    
+
+}
+#press
+{
+    background-color: #ff8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo
+{
+    width:15%;
+    margin : 20px 20px 50px;
+}
+
+/* carousel */
+.carousel-item
+{
+    padding: 7% 15%;
+}
+/* pricing cards */
+#pricing
+{
+    padding:70px;
+    text-align: center;
+    
+}
+.pricing-col
+{
+    padding:3% 2%;
+}
 
