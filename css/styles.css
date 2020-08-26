@@ -8,7 +8,11 @@
 body{
     font-family: "Montserrat";
 }
-
+.big-heading
+{
+    font-size: 3.5rem;
+    color: #ffffff;
+}
 h1{
     font-family: "Montserrat";
     size:5rem;
@@ -121,4 +125,63 @@ h2{
 {
     padding:3% 2%;
 }
+
+.move-button
+{
+    transform: translateY(5rem);
+}
+
+@media (max-width: 1028px)
+{
+    .big-heading{
+        text-align: center;
+    }
+    .title-image
+  {
+      
+      text-align: center;
+      transform: rotate(0deg);
+      transform: translateY(7rem);
+      
+      position: static;
+      
+     
+  }
+}
+
+/* BOTTOM PART */
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 4rem 8rem;
+
+}
+
+#bottom-action
+{
+    padding-bottom:2rem ;
+}
+
+/* footer */
+#footer
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem 2rem;
+
+}
+#copyright
+{
+    color: gray;
+}
+.bottom-ic
+{
+    padding: 10px;
+    
+}
+
+
+
+
 
